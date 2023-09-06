@@ -5,37 +5,15 @@ import './index.css';
 // import App from './App';
 import Message from './Message'
 import reportWebVitals from './reportWebVitals';
+import A from './Component/A';
 
 
 // Creating Functional Component
 
-
-
-function Student(){
-  return <>
-          <p>For a just transition from coal to renewable energy, India should start addressing its historical wrongs and give to the displaced what they are owed.</p>
-          <Message/>
-        </>
-}
-
-function App(){
-  // function always return somthing.
-  // A Functional Component always return JSX(Javascript and XML) structure.
-
-  return  <>
-          <div>
-          <h1>When coal mines close, give land back to original owners.
-          <Student />
-          </h1>
-          
-          </div>
-          </>
-}
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <A />
   </React.StrictMode>
 );
 
