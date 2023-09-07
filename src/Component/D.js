@@ -6,7 +6,7 @@ class D extends Component {
     // 2. Constructor
 
     // 3. Method
-  render() {
+  render() {  // render is a method.
     return (
       <h1>
        This is React Class Component
